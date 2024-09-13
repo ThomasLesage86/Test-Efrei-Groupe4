@@ -8,13 +8,16 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(31, 3, 43);
     background-color: rgb(183, 123, 226);
+    background-image: url(Circuit\ Board.jpg);
 
 }
 
 header nav{
    display: flex;
-   align-items: center;
-   background-color: rgb(231, 190, 85);
+   align-items: stretch;
+   background-color: rgb(4, 190, 223);
+   flex-direction: row;
+   justify-content: space-evenly;
 
 }
 
@@ -25,7 +28,7 @@ header nav{
 
 header ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly
 }
 
