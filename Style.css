@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 3, 43);
+    background-color: rgb(183, 123, 226);
+
+}
+
+header nav{
+   display: flex;
+   align-items: center;
+   background-color: rgb(231, 190, 85);
+
+}
+
+.header img{
+    display: flex;
+    width: 300px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
