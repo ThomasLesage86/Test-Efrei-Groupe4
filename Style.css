@@ -13,11 +13,12 @@ body{
 }
 
 header nav{
-   display: flex;
-   align-items: stretch;
-   background-color: rgb(4, 190, 223);
-   flex-direction: row;
-   justify-content: space-evenly;
+    display: flex;
+    align-items: stretch;
+    background-color: rgb(4, 190, 223);
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
 
 }
 
@@ -26,9 +27,15 @@ header nav{
     width: 300px;
 }
 
-header ul{
+nav ul{
     display: flex;
+    list-style: none;
     flex-direction: column;
     justify-content: space-evenly
 }
 
+.hero{
+    color: rgb(231, 228, 233);
+    display: flex;
+
+}
